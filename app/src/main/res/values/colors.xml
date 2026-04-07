@@ -1,0 +1,9 @@
+<resources>
+    <color name="brand_primary">#3F51B5</color> <!-- indigo -->
+    <color name="brand_secondary">#FF9800</color> <!-- orange -->
+    <color name="splash_bg">#FAFAFA</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_muted">#616161</color>
+    <color name="surface_soft">#EEEEEE</color>
+</resources>

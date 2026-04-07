@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema utama aplikasi -->
+    <style name="Theme.GamerHub" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="android:statusBarColor">@color/brand_primary</item>
+
+    </style>
+
+    <!-- Splash Theme khusus -->
+    <style name="Theme.GamerHub.Splash" parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="android:windowBackground">@color/splash_bg</item>
+
+    </style>
+
+</resources>
