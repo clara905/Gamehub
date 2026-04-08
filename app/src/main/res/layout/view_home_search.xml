@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tilSearch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_md"
+
+    app:boxBackgroundMode="filled"
+    app:boxBackgroundColor="@color/surface_soft"
+    app:boxCornerRadiusTopStart="@dimen/radius_md"
+    app:boxCornerRadiusTopEnd="@dimen/radius_md"
+    app:boxCornerRadiusBottomStart="@dimen/radius_md"
+    app:boxCornerRadiusBottomEnd="@dimen/radius_md"
+
+    app:startIconDrawable="@android:drawable/ic_menu_search"
+    app:startIconTint="@color/text_muted">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cari game favoritmu..."
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_muted"
+        android:inputType="text"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"/>
+
+</com.google.android.material.textfield.TextInputLayout>

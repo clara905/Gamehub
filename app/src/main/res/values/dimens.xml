@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Spacing (lebih lega biar clean & modern) -->
+    <dimen name="space_xs">8dp</dimen>
+    <dimen name="space_sm">12dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">24dp</dimen>
+    <dimen name="space_xl">32dp</dimen>
+
+    <!-- Radius (biar keliatan modern & smooth) -->
+    <dimen name="radius_sm">10dp</dimen>
+    <dimen name="radius_md">16dp</dimen>
+    <dimen name="radius_lg">20dp</dimen>
+
+    <!-- Typography (lebih tegas ala gaming app) -->
+    <dimen name="text_h1">24sp</dimen>
+    <dimen name="text_subtitle">18sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+
+    <!-- Tambahan khusus GameHub -->
+    <dimen name="text_button">16sp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+
+</resources>

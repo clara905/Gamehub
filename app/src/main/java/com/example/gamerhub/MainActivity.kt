@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         binding.tvLocation.text = "UPNVJ, Jakarta"
 
         // Hint search
-        binding.etSearch.hint = "Cari top up, voucher, atau joki game..."
+        binding.etSearch.hint = "Cari game favoritmu..."
     }
 }
-

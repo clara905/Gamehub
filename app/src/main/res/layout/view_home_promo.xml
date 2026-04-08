@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardPromo"
+    style="@style/Card.GameHub"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_md">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_md"
+        android:background="@color/brand_primary">
+
+        <!-- Judul Promo -->
+        <TextView
+            android:id="@+id/tvPromoTitle"
+            style="@style/Text.SubtitleWhite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Promo Top Up Hari Ini 🔥"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Deskripsi -->
+        <TextView
+            android:id="@+id/tvPromoDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_sm"
+            android:text="Diskon hingga 30% untuk top up game favoritmu!"
+            android:textSize="@dimen/text_body"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@id/tvPromoTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExplore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_md"
+            android:text="Top Up Sekarang"
+            style="@style/Text.Button"
+            app:cornerRadius="@dimen/radius_md"
+            app:backgroundTint="@color/brand_secondary"
+            app:layout_constraintTop_toBottomOf="@id/tvPromoDesc"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

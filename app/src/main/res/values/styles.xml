@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Aliases (biar gampang dipakai) -->
+    <style name="Text" parent="Text.H1" />
+    <style name="Card" parent="Card.GameHub" />
+
+    <!-- ================= TYPOGRAPHY ================= -->
+
+    <!-- Judul utama -->
+    <style name="Text.H1">
+        <item name="android:textSize">@dimen/text_h1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Subtitle -->
+    <style name="Text.Subtitle">
+        <item name="android:textSize">@dimen/text_subtitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Body -->
+    <style name="Text.Body">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Teks muted (abu) -->
+    <style name="Text.BodyMuted">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+
+    <!-- Teks putih (buat banner/game card) -->
+    <style name="Text.SubtitleWhite">
+        <item name="android:textSize">@dimen/text_subtitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Button text -->
+    <style name="Text.Button">
+        <item name="android:textSize">@dimen/text_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- ================= CARD ================= -->
+
+    <!-- Card utama GameHub -->
+    <style name="Card.GameHub">
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardCornerRadius">@dimen/radius_lg</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <!-- Card ringan (buat list) -->
+    <style name="Card.Clean">
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">@dimen/radius_md</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+</resources>

@@ -86,7 +86,7 @@
                 android:id="@+id/tvPromoTitle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="🔥 Promo GamerHub"
+                android:text="Promo GamerHub"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:textColor="@android:color/white"
